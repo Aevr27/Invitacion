@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+body{
+  margin:0;
+  font-family:Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+
+  background-image:
+    url("images/background3.jpg"),
+    radial-gradient(ellipse at top left,#0f0f12 0%, #050506 60%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  color:var(--cream);
+  -webkit-font-smoothing:antialiased;
+}
+
+/* Dark magical overlay */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.55);
+    backdrop-filter: blur(2px);
+}
+
+/* Main content box */
+.content {
+    position: relative;
+    max-width: 700px;
+    padding: 40px;
+    background: rgba(20, 15, 8, 0.55);
+    border: 2px solid #d4a53b;
+    border-radius: 12px;
+    box-shadow: 0 0 25px rgba(255, 223, 120, 0.4);
+}
+
+/* Text Styling */
+.title {
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+    color: #f8e7bb;
+}
+
+.sub {
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+    color: #e7d7a8;
+}
+
+.details {
+    margin-top: 25px;
+    font-size: 1.3rem;
+    line-height: 1.6;
+    color: #ffebc0;
+}
+
+/* Countdown */
+#countdown-container h2 {
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+    color: #f1d298;
+}
+
+#countdown {
+    font-size: 2rem;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: #ffe8b5;
+}
+
+
